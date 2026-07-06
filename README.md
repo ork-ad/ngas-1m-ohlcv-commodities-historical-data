@@ -1,10 +1,10 @@
 # NGAS 1m OHLCV Commodities Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_071_466_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)]() [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_219_708_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full NGAS dataset on ork.ad**](https://ork.ad/)
 
-**NGAS 1m OHLCV Commodities historical data** — ultra high-quality one-minute OHLCV for **Natural Gas**. Extended-session energy and industrial metals — beyond US cash hours. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**NGAS 1m OHLCV Commodities historical data** — ultra high-quality 1m OHLCV for **Natural Gas**. Extended-session energy and industrial metals — beyond US cash hours. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1-minute OHLCV** for **Natural Gas** (Commodities)
+- **Ultra high-quality 1m OHLCV** for **Natural Gas** (Commodities)
 - **Extended-session energy and industrial metals — beyond US cash hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m` only) · **13 timeframes** on [ork.ad](https://ork.ad/) · **4,071,466** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **4,219,708** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `NGAS_1m.csv` (171,512 rows, `2026-01-04` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **4,071,466** `1m` rows (~208.63 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-06-24` → `2026-07-02`.
+> **Sample on GitHub** · `NGAS_1m.csv` (172,533 rows, `2026-01-04` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **4,219,708** `1m` rows (~199.06 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2011-12-05` → `2026-07-03`.
 
 ## Download sample
 
@@ -43,16 +43,16 @@ Interactive chart & stats: **[https://ork-ad.github.io/ngas-1m-ohlcv-commodities
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
 | Instrument | Natural Gas · Commodities | Natural Gas · Commodities |
-| Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 171,512 | **4,071,466** |
-| Size | 9.07 MB | ~208.63 MB |
-| Period | `2026-01-04` → `2026-07-02` | `2012-06-24` → `2026-07-02` |
+| Timeframes | `1m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
+| 1m rows | 172,533 | **4,219,708** |
+| Size | 8.39 MB | ~199.06 MB |
+| Period | `2026-01-04` → `2026-07-03` | `2011-12-05` → `2026-07-03` |
 | File | `NGAS_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
 ## Timeframes on ork.ad
 
-This GitHub repository ships a **1-minute (`1m`) evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`1m` evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
 
 **1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **2H** · **4H** · **8H** · **12H** · **16H** · **1D** · **1W**
 
@@ -61,7 +61,7 @@ GitHub = `1m` sample · [ork.ad](https://ork.ad/) = all **13** timeframes above 
 ## Weekly updates
 
 - **[ork.ad](https://ork.ad/)** — Full datasets on ork.ad are updated every Sunday.
-- **GitHub (this repo)** — GitHub 1m samples are refreshed weekly (every Sunday), in sync with ork.ad.
+- **GitHub (this repo)** — GitHub samples are refreshed weekly (every Sunday), in sync with ork.ad.
 
 When a new `1m` sample is published on GitHub, the README, chart preview and CSV reflect the latest week of data.
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`NGAS_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-04T23:01:00Z | 3.63394 | 3.63394 | 3.44693 | 3.44693 | 51 |
-| 2026-01-04T23:02:00Z | 3.44693 | 3.46313 | 3.44693 | 3.45993 | 74 |
-| 2026-01-04T23:03:00Z | 3.45993 | 3.4610 | 3.45443 | 3.4610 | 28 |
-| 2026-01-04T23:04:00Z | 3.4610 | 3.46363 | 3.45243 | 3.45243 | 20 |
-| 2026-01-04T23:05:00Z | 3.45243 | 3.4530 | 3.4450 | 3.4470 | 43 |
+| 2026-01-04T23:01:00Z | 3.6343 | 3.6343 | 3.4472 | 3.4472 | 51 |
+| 2026-01-04T23:02:00Z | 3.4472 | 3.4639 | 3.4472 | 3.4602 | 74 |
+| 2026-01-04T23:03:00Z | 3.4602 | 3.4614 | 3.4547 | 3.461 | 28 |
+| 2026-01-04T23:04:00Z | 3.461 | 3.4639 | 3.4527 | 3.4527 | 20 |
+| 2026-01-04T23:05:00Z | 3.4527 | 3.453 | 3.445 | 3.447 | 43 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T22:30:00Z | 3.2026 | 3.2026 | 3.2021 | 3.2021 | 1.00 |
-| 2026-07-02T22:31:00Z | 3.2021 | 3.2021 | 3.2015 | 3.2015 | 1.00 |
-| 2026-07-02T22:32:00Z | 3.2015 | 3.2015 | 3.2014 | 3.2014 | 1.00 |
-| 2026-07-02T22:33:00Z | 3.2014 | 3.2015 | 3.2014 | 3.2015 | 1.00 |
+| 2026-07-03T16:55:00Z | 3.2418 | 3.242 | 3.2407 | 3.2409 | 11 |
+| 2026-07-03T16:56:00Z | 3.2409 | 3.2424 | 3.2407 | 3.2408 | 11 |
+| 2026-07-03T16:57:00Z | 3.2408 | 3.2408 | 3.2388 | 3.2394 | 7 |
+| 2026-07-03T16:58:00Z | 3.2394 | 3.2402 | 3.2387 | 3.2394 | 29 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **NGAS** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **4,071,466** rows at `1m`, plus all higher timeframes in the same ZIP.
+The complete **NGAS** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **4,219,708** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full NGAS dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · NGAS 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
+*GetData · NGAS 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
